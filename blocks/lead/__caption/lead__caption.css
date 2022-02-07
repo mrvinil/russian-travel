@@ -1,5 +1,11 @@
-.section-gap {
-  padding-top: 92px;
+.lead__caption {
+  margin: 0;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding-top: 8px;
+  align-self: start;
 }
 
 /* Large desktops and laptops */
@@ -13,8 +19,8 @@
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .section-gap {
-    padding-top: 88px;
+  .lead__caption {
+    padding-left: 24px;
   }
 }
 
@@ -25,7 +31,7 @@
 
 /* Landscape phones and smaller */
 @media (max-width: 424px) {
-  .section-gap {
-    padding-top: 64px;
+  .lead__caption {
+    padding-left: 16px;
   }
 }

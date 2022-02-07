@@ -1,5 +1,10 @@
-.section-gap {
-  padding-top: 92px;
+.lead__subtitle {
+  max-width: 640px;
+  margin: 0;
+  padding: 32px 0 64px;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
 }
 
 /* Large desktops and laptops */
@@ -8,13 +13,15 @@
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 1024px) and (max-width: 1279px) {
-
+  .lead__subtitle {
+    padding: 32px 0 56px;
+  }
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .section-gap {
-    padding-top: 88px;
+  .lead__subtitle {
+    padding: 32px 0 56px;
   }
 }
 
@@ -25,7 +32,10 @@
 
 /* Landscape phones and smaller */
 @media (max-width: 424px) {
-  .section-gap {
-    padding-top: 64px;
+  .lead__subtitle {
+    max-width: 288px;
+    padding: 16px 0 40px;
+    font-size: 16px;
+    line-height: 20px;
   }
 }

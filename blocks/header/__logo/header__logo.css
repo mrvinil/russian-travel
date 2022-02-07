@@ -1,0 +1,14 @@
+.header__logo {
+  background: url("../../../images/header-logo.svg") no-repeat;
+  background-size: cover;
+  width: 176px;
+  height: 52px;
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 424px) {
+  .header__logo {
+    width: 142px;
+    height: 42px;
+  }
+}

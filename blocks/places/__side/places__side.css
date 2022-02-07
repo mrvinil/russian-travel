@@ -1,5 +1,7 @@
-.section-gap {
-  padding-top: 92px;
+.places__side {
+  display: grid;
+  grid-template-columns: minmax(min-content, 460px) 1fr;
+  gap: 40px;
 }
 
 /* Large desktops and laptops */
@@ -8,13 +10,17 @@
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 1024px) and (max-width: 1279px) {
-
+  .places__side {
+    grid-template-columns: minmax(min-content, 440px) 1fr;
+    gap: 32px;
+  }
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .section-gap {
-    padding-top: 88px;
+  .places__side {
+    grid-template-columns: minmax(min-content, 340px) 1fr;
+    gap: 28px;
   }
 }
 
@@ -25,7 +31,8 @@
 
 /* Landscape phones and smaller */
 @media (max-width: 424px) {
-  .section-gap {
-    padding-top: 64px;
+  .places__side {
+    grid-template-columns: 1fr;
+    gap: 32px;
   }
 }

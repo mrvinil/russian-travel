@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 424px) {
+  .footer {
+    flex-direction: column;
+    gap: 48px;
+  }
+}

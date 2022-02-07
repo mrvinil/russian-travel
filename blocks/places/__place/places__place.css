@@ -1,0 +1,11 @@
+.places__place {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+}
+
+@media (max-width: 424px) {
+  .places__place {
+    gap: 32px;
+  }
+}

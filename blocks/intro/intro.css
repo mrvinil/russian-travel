@@ -1,5 +1,6 @@
-.section-gap {
-  padding-top: 92px;
+.intro {
+  max-width: 984px;
+  margin: 0 auto;
 }
 
 /* Large desktops and laptops */
@@ -8,13 +9,15 @@
 
 /* Portrait tablets and medium desktops */
 @media (min-width: 1024px) and (max-width: 1279px) {
-
+  .intro {
+    max-width: 928px;
+  }
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 1023px) {
-  .section-gap {
-    padding-top: 88px;
+  .intro {
+    max-width: 720px;
   }
 }
 
@@ -25,7 +28,7 @@
 
 /* Landscape phones and smaller */
 @media (max-width: 424px) {
-  .section-gap {
-    padding-top: 64px;
+  .intro {
+    max-width: 288px;
   }
 }
