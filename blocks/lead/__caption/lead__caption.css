@@ -8,25 +8,11 @@
   align-self: start;
 }
 
-/* Large desktops and laptops */
-@media (min-width: 1280px) {
-}
-
-/* Portrait tablets and medium desktops */
-@media (min-width: 1024px) and (max-width: 1279px) {
-
-}
-
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 1023px) {
   .lead__caption {
     padding-left: 24px;
   }
-}
-
-/* Landscape phones and portrait tablets */
-@media (min-width: 425px) and (max-width: 767px) {
-
 }
 
 /* Landscape phones and smaller */

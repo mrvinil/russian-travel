@@ -4,10 +4,6 @@
   gap: 40px;
 }
 
-/* Large desktops and laptops */
-@media (min-width: 1280px) {
-}
-
 /* Portrait tablets and medium desktops */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .places__side {
@@ -26,7 +22,9 @@
 
 /* Landscape phones and portrait tablets */
 @media (min-width: 425px) and (max-width: 767px) {
-
+  .places__side {
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  }
 }
 
 /* Landscape phones and smaller */

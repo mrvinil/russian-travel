@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url("../../images/cover-trains.jpg") no-repeat;
+  background: url(../../images/cover-trains.jpg) no-repeat;
   background-size: cover;
   min-height: 740px;
   color: var(--color__white);
@@ -29,10 +29,6 @@
   transition: .2s ease;
 }
 
-/* Large desktops and laptops */
-@media (min-width: 1280px) {
-}
-
 /* Portrait tablets and medium desktops */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .cover {
@@ -49,7 +45,9 @@
 
 /* Landscape phones and portrait tablets */
 @media (min-width: 425px) and (max-width: 767px) {
-
+  .cover {
+    min-height: 260px;
+  }
 }
 
 /* Landscape phones and smaller */

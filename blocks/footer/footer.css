@@ -4,7 +4,7 @@
 }
 
 /* Landscape phones and smaller */
-@media (max-width: 424px) {
+@media (max-width: 767px) {
   .footer {
     flex-direction: column;
     gap: 48px;

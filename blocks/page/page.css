@@ -1,5 +1,5 @@
 :root {
-  --color__black: #2A2C2F;
+  --color__black: #2a2c2f;
   --color__white: #fff;
   --color__gray: #aaa;
 }
@@ -19,24 +19,11 @@
   color: var(--color__white);
 }
 
-
-/* Large desktops and laptops */
-@media (min-width: 1280px) {
-}
-
-/* Portrait tablets and medium desktops */
-@media (min-width: 1024px) and (max-width: 1279px) {
-
-}
-
-/* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 1023px) {
-
-}
-
 /* Landscape phones and portrait tablets */
 @media (min-width: 425px) and (max-width: 767px) {
-
+  .page {
+    padding: 16px 20px 24px;
+  }
 }
 
 /* Landscape phones and smaller */

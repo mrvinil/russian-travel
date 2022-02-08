@@ -5,6 +5,14 @@
   gap: 19px;
 }
 
+/* Landscape phones and portrait tablets */
+@media (min-width: 425px) and (max-width: 767px) {
+  .footer__link-list  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
 /* Landscape phones and smaller */
 @media (max-width: 424px) {
   .footer__link-list {

@@ -7,10 +7,6 @@
   text-align: center;
 }
 
-/* Large desktops and laptops */
-@media (min-width: 1280px) {
-}
-
 /* Portrait tablets and medium desktops */
 @media (min-width: 1024px) and (max-width: 1279px) {
   .lead__subtitle {
@@ -23,11 +19,6 @@
   .lead__subtitle {
     padding: 32px 0 56px;
   }
-}
-
-/* Landscape phones and portrait tablets */
-@media (min-width: 425px) and (max-width: 767px) {
-
 }
 
 /* Landscape phones and smaller */
