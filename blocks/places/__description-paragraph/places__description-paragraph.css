@@ -6,7 +6,7 @@
 }
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .places__description-paragraph {
     font-size: 16px;
   }
@@ -15,7 +15,6 @@
 /* Landscape phones and smaller */
 @media (max-width: 424px) {
   .places__description-paragraph {
-    font-size: 16px;
     padding: 0 16px;
   }
 }
